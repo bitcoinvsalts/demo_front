@@ -1,0 +1,14 @@
+{
+    "name": "SantaHost",
+    "short_name": "SantaHost",
+    "icons": [
+      {
+        "src": "logo.jpeg",
+        "type": "image/jpg",
+        "sizes": "512x512"
+      }
+    ],
+    "theme_color": "#FF7779",
+    "background_color": "#FF7779",
+    "display": "standalone"
+  }

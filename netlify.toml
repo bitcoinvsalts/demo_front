@@ -1,0 +1,11 @@
+[build]
+  publish = "dist/client/"
+  command = "npm run build && npm run build:sitemap"
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
